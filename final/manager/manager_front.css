@@ -1,0 +1,9 @@
+body {
+    background-image: url("photo/test.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+as{
+    background-color: rgb(131, 131, 131);
+}

@@ -1,0 +1,148 @@
+/* navbar size */
+nav{
+    height: 130px;
+}
+/* navbar background  */
+.navbar {
+    background-color: rgba(155,19,29);
+    
+}
+/* li title color */
+li a{
+    color: aliceblue !important;
+    font-size: 24px;
+    text-indent: 6px;
+    line-height: 32px;
+    
+}
+ /*click li title color */
+li a:hover{
+    color: black !important;
+}
+form button{
+    right: 40px;
+}
+/* phone */
+.navbar-toggler{
+    background-color: rgb(209, 209, 209);
+}
+/* phone */
+@media (max-width:600px) {
+    nav{
+        height:auto;
+    }
+}
+/* login modal header size */
+.modal-header{
+    height: 190px;
+    border: 0ch;
+}
+/* login modal title */
+.modal-header h3{
+    font-size: 40px;
+    border:12px black solid ;
+    border-style: double;
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    font-weight: bold;
+}
+/* "x" in login modal */
+.modal-header button{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(650%,-30%) scale(100%);
+     
+}
+/* login modal background picture */
+.modal-body {
+    height: 680px;
+    background-image: url("photo/background-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -30px;
+}
+/* login modal background */
+.modal-content {
+    background-color: rgb(235, 203, 26);
+    border-radius: 20px;
+    z-index: 9999; /* 设置较大的 z-index 值 */
+}
+/* account and password input */
+.modal-body form .account , .modal-body form .password{
+    margin: 30px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: black;
+    border:3px rgb(0, 0, 0) solid ; 
+    
+}
+/* login btn */
+.modal-body form .btn{
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border:12px rgba(236, 1, 1, 0) solid ;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(30%,-10%);
+    font-weight: bold;
+}
+/* login btn prompt word */
+.modal-body h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+/* register btn */
+.modal-body .btn{
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border:12px rgba(220, 53, 70, 0) solid ;
+    font-size: 25px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-130%,-10%);
+    font-weight: bold;
+}
+/* login user picture */
+.login-image {
+    width: 60px;
+    height: 60px;
+    filter: invert(100%);
+  }
+/* .btn-login:hover */
+.btn-login:hover {
+    background-image: url("photo/confirm.png");
+    background-size: 250%;
+    background-position: center -30px;
+}
+.btn-register:hover {
+    background-image: url("photo/confirm.png");
+    background-size: 250%; 
+    background-position: -70px -25px;
+}
+#dropdown-member-menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 190px;
+    text-align: left;
+}
+#information{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50px;
+    height: 105px;
+    text-align: left;
+}
+#dropdownMenuButton{
+    height:85px;
+    width: 85px;
+    border: 0px;
+    background-color: rgb(190, 188, 24);
+    border-radius: 50px;
+}
